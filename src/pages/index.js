@@ -44,7 +44,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-20 overflow-hidden'>
             <Image
               src={deved}
               alt='3D portrait'
@@ -52,6 +52,23 @@ export default function Home() {
               fill
               style={{ objectFit: 'cover' }}
             />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p className='text-base py-5 leading-8 text-gray-800'>
+              Since the beginning of my journey as a freelance designer and
+              developer, I&apos;ve done remote work for
+              <span className='text-teal-500'> agencies</span> consulted for
+              <span className='text-teal-500'> startups</span> and collaborated
+              with talendted people to create digital products for both business
+              and consumer use.
+            </p>
+            <p className='text-base py-5 leading-8 text-gray-800'>
+              I offer a wide range of services, including brand design,
+              programming and teaching
+            </p>
           </div>
         </section>
       </main>
