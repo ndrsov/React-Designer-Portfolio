@@ -6,6 +6,9 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../../public/dev-ed-wave.png';
+import design from '../../public/design.png';
+import code from '../../public/code.png';
+import consulting from '../../public/consulting.png';
 
 export default function Home() {
   return (
@@ -69,6 +72,71 @@ export default function Home() {
               I offer a wide range of services, including brand design,
               programming and teaching
             </p>
+          </div>
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image
+                src={design}
+                alt='design service icon'
+                width={100}
+                height={100}
+                style={{ margin: '0 auto' }}
+              />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                Beautiful Designs
+              </h3>
+              <p className='py-2'>
+                Creating elegant designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe XD</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image
+                src={code}
+                alt='code service icon'
+                width={100}
+                height={100}
+                style={{ margin: '0 auto' }}
+              />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                Beautiful Designs
+              </h3>
+              <p className='py-2'>
+                Creating elegant designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe XD</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image
+                src={consulting}
+                alt='consulting service icon'
+                width={100}
+                height={100}
+                style={{ margin: '0 auto' }}
+              />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                Beautiful Designs
+              </h3>
+              <p className='py-2'>
+                Creating elegant designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe XD</p>
+            </div>
           </div>
         </section>
       </main>
