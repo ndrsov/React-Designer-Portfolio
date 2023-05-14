@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div>
       <title>React Designer Portfolio</title>
-      <main className='bg-white px-10  '>
+      <main className='bg-white px-10 md:px-20 lg:px-40 '>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons '>@ndrsov</h1>
@@ -39,11 +39,13 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>
               Andres Soria
             </h2>
-            <h3 className='text-2xl py-2'>Developer and Designer.</h3>
-            <p className='text-base py-5 leading-8 text-gray-800'>
+            <h3 className='text-2xl py-2 md:text-3xl'>
+              Developer and Designer.
+            </h3>
+            <p className='text-base py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
               Self-taught full-stack developer providing freelance services for
               your programming and design content needs.
             </p>
@@ -53,7 +55,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-20 overflow-hidden md:h-96 md:w-96'>
             <Image
               src={deved}
               alt='3D portrait'
