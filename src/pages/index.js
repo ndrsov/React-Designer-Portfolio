@@ -81,7 +81,7 @@ export default function Home() {
               programming and teaching
             </p>
           </div>
-          <div>
+          <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image
                 src={design}
@@ -157,24 +157,60 @@ export default function Home() {
               delivering high-quality results that align with your objectives.
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={web1} alt='Portoflio example' />
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web1}
+                alt='Portoflio example'
+              />
             </div>
-            <div>
-              <Image src={web2} alt='Portoflio example' />
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web2}
+                alt='Portoflio example'
+              />
             </div>
-            <div>
-              <Image src={web3} alt='Portoflio example' />
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web3}
+                alt='Portoflio example'
+              />
             </div>
-            <div>
-              <Image src={web4} alt='Portoflio example' />
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web4}
+                alt='Portoflio example'
+              />
             </div>
-            <div>
-              <Image src={web5} alt='Portoflio example' />
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web5}
+                alt='Portoflio example'
+              />
             </div>
-            <div>
-              <Image src={web6} alt='Portoflio example' />
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className='rounded-lg object-cover'
+                width={'100%'}
+                height={'100%'}
+                src={web6}
+                alt='Portoflio example'
+              />
             </div>
           </div>
         </section>
